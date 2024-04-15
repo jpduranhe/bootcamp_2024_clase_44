@@ -21,7 +21,7 @@ public class AzafataServiceImpl implements AzafataService {
 
 	@Override
 	public void procesarSueldo(Azafata azafata) {
-		azafata.getSueldo();
+		azafata.calculoSueldo();
 		System.out.println("La azafata "+azafata.getName()+" sueldo es "+azafata.getSueldo());
 		
 	}
